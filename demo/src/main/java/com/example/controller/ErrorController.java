@@ -11,7 +11,7 @@ public class ErrorController {
 	public String error() {
 		
 		int a =1/0;
-		System.out.println("错误");
+		System.out.println("错误！");
 		return "error";
 	}
 }
