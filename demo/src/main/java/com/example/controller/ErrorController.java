@@ -9,7 +9,7 @@ public class ErrorController {
 
 	@RequestMapping("/error")
 	public String error() {
-		system.out.println("从github更新")
+		System.out.println("从github更新");
 		int a =1/0;
 		return "error";
 	}
